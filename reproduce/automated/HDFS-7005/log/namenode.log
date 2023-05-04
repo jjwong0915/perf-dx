@@ -1,0 +1,15 @@
+2023-04-27 06:10:21,614 INFO org.apache.hadoop.hdfs.server.blockmanagement.CacheReplicationMonitor: Rescanning after 45638 milliseconds
+2023-04-27 06:10:21,617 INFO org.apache.hadoop.hdfs.server.blockmanagement.CacheReplicationMonitor: Scanned 0 directive(s) and 0 block(s) in 3 millisecond(s).
+2023-04-27 06:10:21,621 WARN org.apache.hadoop.util.JvmPauseMonitor: Detected pause in JVM or host machine (eg GC): pause of approximately 29661ms
+No GCs detected
+2023-04-27 06:10:21,648 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2023-04-27 06:10:21,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs
+2023-04-27 06:10:21,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 1
+2023-04-27 06:10:21,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 59 Total time for transactions(ms): 20 Number of transactions batched in Syncs: 0 Number of syncs: 25 SyncTimes(ms): 1510 
+2023-04-27 06:10:21,650 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 59 Total time for transactions(ms): 20 Number of transactions batched in Syncs: 0 Number of syncs: 26 SyncTimes(ms): 1512 
+2023-04-27 06:10:21,652 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /tmp/hadoop-jjwong0915/dfs/name/current/edits_inprogress_0000000000000000001 -> /tmp/hadoop-jjwong0915/dfs/name/current/edits_0000000000000000001-0000000000000000059
+2023-04-27 06:10:21,655 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 60
+2023-04-27 06:10:22,735 WARN org.apache.hadoop.security.ssl.FileBasedKeyStoresFactory: The property 'ssl.client.truststore.location' has not been set, no TrustStore will be loaded
+2023-04-27 06:10:23,370 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Transfer took 0.00s at 0.00 KB/s
+2023-04-27 06:10:23,371 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000000059 size 792 bytes.
+2023-04-27 06:10:23,377 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 0

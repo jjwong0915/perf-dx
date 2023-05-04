@@ -1,0 +1,11 @@
+2023-04-27 13:27:34,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2023-04-27 13:27:34,934 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs.
+2023-04-27 13:27:34,934 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 1
+2023-04-27 13:27:34,935 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 12 
+2023-04-27 13:27:34,937 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /tmp/hadoop-jjwong0915/dfs/name/current/edits_inprogress_0000000000000000001 -> /tmp/hadoop-jjwong0915/dfs/name/current/edits_0000000000000000001-0000000000000000002
+2023-04-27 13:27:34,937 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 3
+2023-04-27 13:27:35,346 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://localhost:50090/getimage?getimage=1&txid=2&storageInfo=-40:528579282:0:CID-bfbcbfa4-4024-4c41-bb96-66000d4d781b
+2023-04-27 13:27:35,444 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Transfer took 0.10s at 0.00 KB/s
+2023-04-27 13:27:35,444 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000000002 size 125 bytes.
+2023-04-27 13:27:35,451 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 0
+2023-04-27 13:27:35,452 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 0

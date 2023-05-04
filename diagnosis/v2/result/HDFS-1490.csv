@@ -1,0 +1,75 @@
+score,hotness,uniqueness,log
+0.10254337248529476,0.12589483354630246,0.8145161290322581,23/04/27 06:23:33 INFO util.HostsFileReader: Refreshing hosts (include/exclude) list
+0.08444010260740138,0.13297942406284902,0.6349862258953168,"2023-04-27 06:24:03,361 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://localhost:50090/getimage?getimage=1&txid=2&storageInfo=-40:874404115:0:CID-486885bd-8d0e-4561-b238-8aba13639823"
+0.08419073104390314,0.12589483354630246,0.6687385706970961,23/04/27 06:23:33 INFO common.Storage: Lock on /tmp/hadoop-jjwong0915/dfs/namesecondary/in_use.lock acquired by nodename 127592@hadoop-1.us-east1-b.c.workstation-360918.internal
+0.08319167318764359,0.13297942406284902,0.6255980861244019,"2023-04-27 06:24:03,014 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 13"
+0.07673392886171933,0.12589483354630246,0.6095081640780565,23/04/27 06:23:33 INFO namenode.NameNode: Caching file names occuring more than 10 times
+0.07537871096610693,0.13297942406284902,0.5668449197860963,"2023-04-27 06:24:03,015 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /tmp/hadoop-jjwong0915/dfs/name/current/edits_inprogress_0000000000000000001 -> /tmp/hadoop-jjwong0915/dfs/name/current/edits_0000000000000000001-0000000000000000002"
+0.07491132299790819,0.12589483354630246,0.5950309547083741,23/04/27 06:23:33 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+0.06673457574439816,0.12589483354630246,0.5300819252432155,23/04/27 06:23:33 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+0.06480500481890611,0.12589483354630246,0.5147550776583034,23/04/27 06:23:33 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+0.06303570101680506,0.13297942406284902,0.474025974025974,"2023-04-27 06:24:03,476 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 0"
+0.061452612635104466,0.13297942406284902,0.4621212121212121,"2023-04-27 06:24:03,470 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000000002 size 125 bytes."
+0.05919087738507608,0.12589483354630246,0.47016129032258064,23/04/27 06:23:33 INFO namenode.FSNamesystem: fsOwner             = jjwong0915 (auth:SIMPLE)
+0.05715028808785006,0.12589483354630246,0.45395260852250097,23/04/27 06:23:33 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+0.05595055021758566,0.13297942406284902,0.42074592074592077,"2023-04-27 06:24:03,470 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Transfer took 0.11s at 0.00 KB/s"
+0.055837459080061554,0.13298037629822598,0.41989247311827954,23/04/27 06:23:34 INFO mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+0.05271000087321669,0.12589483354630246,0.41868279569892475,23/04/27 06:23:33 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+0.05174709556031454,0.12589483354630246,0.4110343061955965,23/04/27 06:23:33 INFO impl.MetricsSystemImpl: SecondaryNameNode metrics system started
+0.051378413842464395,0.13297942406284902,0.38636363636363635,"2023-04-27 06:24:03,477 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Purging logs older than 0"
+0.050385127471213396,0.13298037629822598,0.37889144905273936,23/04/27 06:23:34 INFO namenode.SecondaryNameNode: Web server init done
+0.050385127471213396,0.13298037629822598,0.37889144905273936,23/04/27 06:23:34 INFO namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+0.04953147739714704,0.13297942406284902,0.37247474747474746,"2023-04-27 06:24:03,012 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1"
+0.048516326646439095,0.12589483354630246,0.3853718637992832,23/04/27 06:23:33 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+0.048349713548281374,0.13298037629822598,0.3635853266037598,23/04/27 06:23:34 INFO namenode.SecondaryNameNode: Log Size Trigger    :40000 txns
+0.04685741104352476,0.13298037629822598,0.35236335125448026,23/04/27 06:23:34 INFO namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+0.04645151922860499,0.12589483354630246,0.3689708141321045,23/04/27 06:23:33 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+0.045450742325990376,0.12589483354630246,0.3610215053763441,23/04/27 06:23:33 INFO namenode.FSNamesystem: Append Enabled: true
+0.043740147813484405,0.12589483354630246,0.3474340175953079,23/04/27 06:23:33 INFO http.HttpServer: Jetty bound to port 50090
+0.04195140743655821,0.12589483354630246,0.3332258064516129,23/04/27 06:23:33 INFO namenode.FSNamesystem: isPermissionEnabled = true
+0.04160169956559625,0.12589483354630246,0.3304480286738351,23/04/27 06:23:33 INFO namenode.SecondaryNameNode: STARTUP_MSG:
+0.04020512426156111,0.12589483354630246,0.3193548387096774,23/04/27 06:23:33 INFO namenode.FSNamesystem: HA Enabled: false
+0.03941264110236507,0.12589483354630246,0.3130600358422939,23/04/27 06:23:33 INFO blockmanagement.BlockManager: defaultReplication         = 1
+0.03941264110236507,0.12589483354630246,0.3130600358422939,23/04/27 06:23:33 INFO blockmanagement.BlockManager: maxReplication             = 512
+0.03941264110236507,0.12589483354630246,0.3130600358422939,23/04/27 06:23:33 INFO blockmanagement.BlockManager: minReplication             = 1
+0.03941264110236507,0.12589483354630246,0.3130600358422939,23/04/27 06:23:33 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+0.03941264110236507,0.12589483354630246,0.3130600358422939,23/04/27 06:23:33 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+0.037824854559207186,0.12589483354630246,0.30044802867383513,23/04/27 06:23:33 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+0.037824854559207186,0.12589483354630246,0.30044802867383513,23/04/27 06:23:33 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+0.037459031118154816,0.12589483354630246,0.297542242703533,23/04/27 06:23:33 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+0.03670240510240995,0.12589483354630246,0.2915322580645161,23/04/27 06:23:33 INFO namenode.FSNamesystem: supergroup          = supergroup
+0.03567945405726694,0.13297942406284902,0.26830808080808083,"2023-04-27 06:24:03,016 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 3"
+0.03489336127268972,0.13297942406284902,0.26239669421487605,"2023-04-27 06:24:03,012 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs."
+0.03460415787663824,0.12589483354630246,0.27486559139784944,23/04/27 06:23:33 INFO mortbay.log: jetty-6.1.26
+0.03321096684232208,0.12589483354630246,0.2637992831541219,23/04/27 06:23:33 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 30000
+0.03287852151416171,0.13297942406284902,0.24724517906336088,"2023-04-27 06:24:03,012 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 1"
+0.031217263991291974,0.12589483354630246,0.24796302685296992,23/04/27 06:23:33 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context secondary
+0.029983000917308617,0.12589483354630246,0.23815910528434248,23/04/27 06:23:33 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+0.02923412944242577,0.12589483354630246,0.23221071603128055,23/04/27 06:23:33 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+1.0125788956039993e-20,1.5782654294609824e-20,0.6415770609318996,23/04/27 06:24:03 INFO util.ExitUtil: Exiting with status 0
+8.723452038608534e-21,1.5782654294609824e-20,0.5527240143369175,23/04/27 06:24:03 INFO namenode.SecondaryNameNode: Image has changed. Downloading updated image from NN.
+8.122872930822282e-21,1.5782654294609824e-20,0.5146709025741284,23/04/27 06:24:03 INFO namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 0
+7.62623872363225e-21,1.5782654294609824e-20,0.48320381231671555,23/04/27 06:24:03 INFO namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+6.715456772775946e-21,1.5782654294609824e-20,0.42549603174603173,23/04/27 06:24:03 WARN namenode.SecondaryNameNode: Checkpoint done. New Image Size: 125
+6.591485558726664e-21,1.5782654294609824e-20,0.4176411290322581,23/04/27 06:24:03 INFO namenode.FSImage: Number of files under construction = 0
+5.705138158337003e-21,1.5782654294609824e-20,0.36148153864622456,23/04/27 06:24:03 INFO namenode.TransferFsImage: Opening connection to http://localhost:50070/getimage?getedit=1&startTxId=1&endTxId=2&storageInfo=-40:874404115:0:CID-486885bd-8d0e-4561-b238-8aba13639823
+5.215346998894454e-21,1.5782654294609824e-20,0.3304480286738351,23/04/27 06:24:03 INFO namenode.SecondaryNameNode: SHUTDOWN_MSG:
+4.977839467036501e-21,1.5782654294609824e-20,0.31539938556067587,23/04/27 06:24:03 INFO namenode.FileJournalManager: Purging logs older than 0
+4.977839467036501e-21,1.5782654294609824e-20,0.31539938556067587,23/04/27 06:24:03 INFO namenode.FileJournalManager: Purging logs older than 0
+4.887185313830135e-21,1.5782654294609824e-20,0.30965547509326313,23/04/27 06:24:03 INFO namenode.FSImage: Reading /tmp/hadoop-jjwong0915/dfs/namesecondary/current/edits_0000000000000000001-0000000000000000002 expecting start txid #1
+4.597583470995963e-21,1.5782654294609824e-20,0.29130610004973334,23/04/27 06:24:03 INFO namenode.TransferFsImage: Opening connection to http://localhost:50070/getimage?putimage=1&txid=2&port=50090&storageInfo=-40:874404115:0:CID-486885bd-8d0e-4561-b238-8aba13639823
+4.29150681110752e-21,1.5782654294609824e-20,0.27191286909028844,23/04/27 06:24:03 INFO namenode.FSImageTransactionalStorageInspector: No version file in /tmp/hadoop-jjwong0915/dfs/namesecondary
+3.9337816310551474e-21,1.5782654294609824e-20,0.24924715181771634,23/04/27 06:24:03 INFO namenode.FSImage: Saving image file /tmp/hadoop-jjwong0915/dfs/namesecondary/current/fsimage.ckpt_0000000000000000002 using no compression
+3.745888500412268e-21,1.5782654294609824e-20,0.2373421118202902,23/04/27 06:24:03 INFO namenode.TransferFsImage: Opening connection to http://localhost:50070/getimage?getimage=1&txid=0&storageInfo=-40:874404115:0:CID-486885bd-8d0e-4561-b238-8aba13639823
+3.6699452633051636e-21,1.5782654294609824e-20,0.23253029527223076,23/04/27 06:24:03 INFO namenode.FSImage: Loading image file /tmp/hadoop-jjwong0915/dfs/namesecondary/current/fsimage_0000000000000000000 using no compression
+3.606045949144136e-21,1.5782654294609824e-20,0.22848159009449331,23/04/27 06:24:03 INFO namenode.TransferFsImage: Uploaded image with txid 2 to namenode at localhost:50070
+3.556511644539842e-21,1.5782654294609824e-20,0.22534306195596518,23/04/27 06:24:03 INFO namenode.FSImage: Image file of size 125 saved in 0 seconds.
+3.52776264676561e-21,1.5782654294609824e-20,0.22352150537634408,23/04/27 06:24:03 INFO namenode.FSImage: Number of files = 1
+3.5181437309022085e-21,1.5782654294609824e-20,0.2229120441486033,23/04/27 06:24:03 INFO namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000000000 size 125 bytes.
+3.2674205718758047e-21,1.5782654294609824e-20,0.2070260496671787,23/04/27 06:24:03 INFO namenode.TransferFsImage: Downloaded file edits_0000000000000000001-0000000000000000002 size 30 bytes.
+3.05527008320578e-21,1.5782654294609824e-20,0.19358404652183453,23/04/27 06:24:03 INFO namenode.FSImage: Loaded image for txid 0 from /tmp/hadoop-jjwong0915/dfs/namesecondary/current/fsimage_0000000000000000000
+2.996547636065537e-21,1.5782654294609824e-20,0.18986335125448028,23/04/27 06:24:03 INFO namenode.TransferFsImage: Transfer took 0.16s at 0.00 KB/s
+2.996547636065537e-21,1.5782654294609824e-20,0.18986335125448028,23/04/27 06:24:03 INFO namenode.TransferFsImage: Transfer took 0.01s at 0.00 KB/s
+2.996547636065537e-21,1.5782654294609824e-20,0.18986335125448028,23/04/27 06:24:03 INFO namenode.TransferFsImage: Transfer took 0.12s at 0.00 KB/s
+2.3731307711193993e-21,1.5782654294609824e-20,0.15036322324628776,23/04/27 06:24:03 INFO namenode.FSImage: Edits file /tmp/hadoop-jjwong0915/dfs/namesecondary/current/edits_0000000000000000001-0000000000000000002 of size 30 edits # 2 loaded in 0 seconds.
+2.3728125724441045e-21,1.5782654294609824e-20,0.15034306195596517,23/04/27 06:24:03 INFO namenode.FSImage: Image file of size 125 loaded in 0 seconds.
